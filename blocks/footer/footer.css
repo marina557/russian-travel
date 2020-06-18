@@ -7,40 +7,38 @@
 	max-width: 1184px;
 	margin: 92px auto 24px;
 	flex-direction: row;
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 	justify-content: space-between;
 }
 
 @media (max-width: 1280px){
-	.footer{
-		max-width: calc(100vw - 96px);/*устанавливаем ширину и отступы*/
-	}
+  .footer{
+    max-width: calc(100vw - 96px);/*устанавливаем ширину и отступы*/
+  }
 }
 
 @media (max-width: 768px){
-	.footer{
-		margin: 88px auto 24px;
-		max-width: calc(100vw - 48px);/*устанавливаем ширину и отступы*/
-		flex-wrap: wrap;
-	}
+  .footer{
+    margin: 88px auto 24px;
+    max-width: calc(100vw - 48px);/*устанавливаем ширину и отступы*/
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 640px){
-
-	.footer{
-		flex-direction: column;
-		align-items: flex-start;
-		
-	}
+  .footer{
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 @media (max-width: 320px){
-	.footer{
-		margin: 64px auto 24px;
-		max-width: calc(100vw - 16px);/*устанавливаем ширину и отступы*/
-		flex-direction: column;
-	}
+  .footer{
+    margin: 64px auto 24px;
+    max-width: calc(100vw - 16px);/*устанавливаем ширину и отступы*/
+    flex-direction: column;
+  }
 }
 
 

@@ -1,21 +1,21 @@
 .cover__subtitle {
-	color: #fff;
-	max-width: 360px;
-	font-family: Inter;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 1.22;
-	text-align: center;
-	margin: 32px 0 0;
+  color: #fff;
+  max-width: 360px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  margin: 32px 0 0;
 }
 
 @media (max-width: 768px){
     .cover__subtitle {
 		font-size: calc(14px + (18 - 14) * ( (100vw - 320px) / ( 768 - 320) ));/*делаем плавное изменение шрифта до ширины 320*/
-        box-sizing: border-box;
-        padding: 0 2px;		
-	}	
+		box-sizing: border-box;
+		padding: 0 2px;    
+  }  
 }
 
 

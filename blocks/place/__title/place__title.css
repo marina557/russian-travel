@@ -1,24 +1,24 @@
 .place__title{
-	width: 100%;
-	max-width: 460px;
-	font-family: Inter;
-	font-style: normal;
-	font-weight: 900;
-	font-size: 72px;
-	line-height: 1.05;
-	align-self: end;
-	margin: 0;
-	padding: 0;
+  width: 100%;
+  max-width: 460px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.05;
+  align-self: end;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 1024px){
-	.place__title{
-		font-size: calc(42px + (72 - 42) * ( (100vw - 768px) / ( 1024 - 768) ));/*делаем плавное изменение шрифта до ширины 320*/
-	}
+  .place__title{
+    font-size: calc(42px + (72 - 42) * ( (100vw - 768px) / ( 1024 - 768) ));/*делаем плавное изменение шрифта до ширины 320*/
+  }
 }
 
 @media (max-width: 768px){
-	.place__title{
-		font-size: calc(32px + (42 - 32) * ( (100vw - 320px) / ( 768 - 320) ));/*делаем плавное изменение шрифта до ширины 320*/
-	}
+  .place__title{
+    font-size: calc(32px + (42 - 32) * ( (100vw - 320px) / ( 768 - 320) ));/*делаем плавное изменение шрифта до ширины 320*/
+  }
 }

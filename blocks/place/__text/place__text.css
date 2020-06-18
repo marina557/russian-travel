@@ -1,10 +1,10 @@
 .place__text{
-	width: 100%;
-	max-width: 484px;
+  width: 100%;
+  max-width: 484px;
 }
 
 @media (max-width: 640px){
-	.place__text{
-		max-width: 100%;
-	}
+  .place__text{
+    max-width: 100%;
+  }
 }

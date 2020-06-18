@@ -9,12 +9,12 @@
 
 @media (max-width: 768px){
 	.intro__title {
-	    font-size: calc(32px + (54 - 32) * ( (100vw - 320px) / ( 768 - 320) ));/*делаем плавное изменение шрифта до ширины 320*/
-    }
+		font-size: calc(32px + (54 - 32) * ( (100vw - 320px) / ( 768 - 320) ));/*делаем плавное изменение шрифта до ширины 320*/
+	}
 }
 
 @media (max-width: 320px){
 	.intro__title {
-		font-size: 32px;         		  
-    }
+		font-size: 32px;               
+	}
 }
