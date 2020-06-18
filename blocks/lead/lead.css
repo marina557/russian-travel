@@ -1,4 +1,4 @@
-@import url(__title/lead__title.css);
+﻿@import url(__title/lead__title.css);
 @import url(__subtitle/lead__subtitle.css);
 @import url(__image/lead__image.css);
 @import url(__caption/lead__caption.css);
@@ -10,7 +10,7 @@
 
 @media (max-width: 1080px){
   .lead{
-		max-width: calc(100vw - 96px);/*устанавливаем ширину и отступы*/
+   max-width: calc(100vw - 96px);/*устанавливаем ширину и отступы*/
   }
 }
 

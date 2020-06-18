@@ -15,18 +15,18 @@
 
 @media (max-width: 1024px){
   .place{
-		grid-gap: 32px;
+   grid-gap: 32px;
   }
 }
 
 @media (max-width: 768px){
   .place{
-    grid-gap: 28px;
+   grid-gap: 28px;
   }
 }
 
 @media (max-width: 640px){
   .place{
-    grid-template-columns: 1fr;
+   grid-template-columns: 1fr;
   }
 }

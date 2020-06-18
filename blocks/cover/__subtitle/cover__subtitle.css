@@ -1,4 +1,4 @@
-.cover__subtitle {
+﻿.cover__subtitle {
   color: #fff;
   max-width: 360px;
   font-family: Inter;
@@ -12,9 +12,9 @@
 
 @media (max-width: 768px){
   .cover__subtitle {
-    font-size: calc(14px + (18 - 14) * ( (100vw - 320px) / ( 768 - 320) ));/*делаем плавное изменение шрифта до ширины 320*/
-    box-sizing: border-box;
-    padding: 0 2px;    
+   font-size: calc(14px + (18 - 14) * ( (100vw - 320px) / ( 768 - 320) ));/*делаем плавное изменение шрифта до ширины 320*/
+   box-sizing: border-box;
+   padding: 0 2px;    
   }  
 }
 

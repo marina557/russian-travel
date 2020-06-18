@@ -1,15 +1,15 @@
-@import url(__links/footer__links.css);
+﻿@import url(__links/footer__links.css);
 @import url(__link/footer__link.css);
 @import url(__link-item/footer__link-item.css);
 @import url(__copyright/footer__copyright.css);
 
 .footer{
-	max-width: 1184px;
-	margin: 92px auto 24px;
-	flex-direction: row;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  max-width: 1184px;
+  margin: 92px auto 24px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media (max-width: 1280px){

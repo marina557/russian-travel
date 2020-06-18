@@ -1,4 +1,4 @@
-@import url(__title/intro__title.css);
+﻿@import url(__title/intro__title.css);
 @import url(__text/intro__text.css);
 @import url(__list/intro__list.css);
 @import url(__list-number/intro__list-number.css);
@@ -15,14 +15,14 @@
 
 @media (max-width: 1080px){
   .intro{
-    left: calc( (690px - 100vw + 96px) / 2);/*устанавливаем ширину и отступы*/
+   left: calc( (690px - 100vw + 96px) / 2);/*устанавливаем ширину и отступы*/
   }
 }
 
 @media (max-width: 786px){
   .intro{
-    left: 0;
-    max-width: calc(100vw - 96px);/*устанавливаем ширину и отступы*/
+   left: 0;
+   max-width: calc(100vw - 96px);/*устанавливаем ширину и отступы*/
   }
 }
 
