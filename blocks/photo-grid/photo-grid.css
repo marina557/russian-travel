@@ -5,6 +5,7 @@
   margin: 92px auto 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 213px;
   grid-gap: 16px;
 }
 
@@ -18,6 +19,7 @@
   .photo-grid{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 14px;
+   grid-auto-rows: calc(225px + 57 * (100vw - 1024px)/256);/*плавное изменение высоты*/
   }
 }
 
@@ -26,6 +28,7 @@
     margin: 88px auto 0;
     max-width: calc(100vw - 48px);/*устанавливаем ширину и отступы*/
     grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: calc(216px + 48 * (100vw - 320px)/448);/*плавное изменение высоты*/
     grid-gap: 16px;
   }
 }
@@ -35,6 +38,7 @@
     margin: 64px auto 0;
     max-width: calc(100vw - 32px);/*устанавливаем ширину и отступы*/
     grid-template-columns: 1fr;
+    grid-auto-rows: 216px;
     grid-gap: 12px;
   }
 }

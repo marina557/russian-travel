@@ -1,22 +1,21 @@
 ﻿.lead__subtitle {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
   max-width: 640px;
   margin: 35px auto 32px;
+  width: auto;
 }
 
-@media (max-width: 768px) {
+
+@media (min-width: 320px) and (max-width: 450px) {
   .lead__subtitle {
-   max-width: 640px ;
-   font-size: calc(16px + (30 - 16) * ( (100vw - 320px) / ( 768 - 320) ));/*делаем плавное изменение шрифта до ширины 320*/
-   width: calc(288px + (640 - 288) * ( (100vw - 320px) / ( 768 - 320) ));/*делаем плавное изменение ширины подзаголовка*/
-   line-height: 1.2;
+   max-width: 450px;
+   font-size: 23px; 
+   width: auto; 
  }
 }
+
 @media (max-width: 320px){
   .lead__subtitle {
    max-width: 288px;

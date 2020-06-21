@@ -1,15 +1,17 @@
 @import url(__logo/header__logo.css);
 @import url(__lang/header__lang.css);
 @import url(__lang-link/header__lang-link.css);
+@import url(__lang-link/_active/header__lang-link_active.css);
 
 .header{
   max-width: 1184px;
-  margin: 28px auto 0;
+  margin: 0 auto;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
+  padding-top: 28px;
 }
 
 

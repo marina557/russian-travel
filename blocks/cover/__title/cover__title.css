@@ -12,8 +12,24 @@
 
 @media (max-width: 768px){
   .cover__title{
-   font-size: calc(32px + (72 - 32) * ( (100vw - 320px) / ( 768 - 320) ));/*делаем плавное изменение шрифта до ширины 320*/
-   max-width: calc(288px + (560 - 288) * (100vw - 320px)/(768 - 320));/*плавное изменение размеров ширины заголовка*/
+   font-size: 72px;  
+   padding: 0 25px;
+   box-sizing: border-box;
+ }
+}
+
+@media (min-width: 320px) and (max-width:550px){
+  .cover__title{
+   font-size: 35px; 
+   padding: 0 25px;
+   box-sizing: border-box;
+ }
+}
+
+@media (max-width: 320px){
+  .cover__title{
+   font-size: 32px; 
+   max-width: 288px;
    padding: 0 25px;
    box-sizing: border-box;
  }

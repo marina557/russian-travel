@@ -1,7 +1,4 @@
 ﻿.header__lang-link {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: normal;
   font-size: 24px;
   line-height: 1.17;
   color: #FFFFFF;
@@ -17,7 +14,7 @@
 
 @media (max-width: 768px) {
   .header__lang-link{
-   font-size: calc(18px + (24 - 18) * ( (100vw - 320px) / ( 768 - 320) ));/*делаем плавное изменение шрифта до ширины 320*/
+   font-size: 24px; 
   }
 }
 

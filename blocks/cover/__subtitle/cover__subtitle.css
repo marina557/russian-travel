@@ -1,9 +1,6 @@
 ﻿.cover__subtitle {
   color: #fff;
   max-width: 360px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
@@ -12,10 +9,27 @@
 
 @media (max-width: 768px){
   .cover__subtitle {
-   font-size: calc(14px + (18 - 14) * ( (100vw - 320px) / ( 768 - 320) ));/*делаем плавное изменение шрифта до ширины 320*/
+   font-size: 18px; 
    box-sizing: border-box;
    padding: 0 2px;    
   }  
 }
+
+@media (min-width: 320px) and (max-width:550px){
+  .cover__subtitle{
+   font-size: 16px; 
+   padding: 0 2px;
+   box-sizing: border-box;
+ }
+}
+
+@media (max-width: 320px){
+  .cover__subtitle {
+   font-size: 14px; 
+   box-sizing: border-box;
+   padding: 0 2px;    
+  }  
+}
+
 
 

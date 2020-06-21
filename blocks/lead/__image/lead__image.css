@@ -2,10 +2,9 @@
   max-width: 984px;
   width: 100%;
   margin-top: 32px;
-  max-height: 615px;
-  height: 100%;
-  object-fit: cover;
-  object-position: top;
+  padding-top: 62.5%;
+  background-image: url(../../../images/lead-polka.jpg);
+  background-size: cover;
 }
 
 @media (max-width: 768px){

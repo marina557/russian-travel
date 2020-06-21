@@ -8,3 +8,11 @@
     max-width: 100%;
   }
 }
+
+@media (max-width: 320px){
+  .place__text{
+   margin: 0 16px;
+   width: auto;
+   max-width: 100%;
+  }
+}
